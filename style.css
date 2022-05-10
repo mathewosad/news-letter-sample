@@ -1,17 +1,17 @@
-* {
+/* * {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Courgette', cursive;
     font-family: 'Merriweather', serif;
     font-family: 'Roboto Slab', serif;
-}
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Merriweather:ital,wght@1,300&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
 
 .wrapper {
     min-height: 100vh;
     color: #000;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Merriweather', serif;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Bebas Neue','Courgette' ,'Merriweather' ,'Roboto Slab' ,cursive serif;
     font-size: 1rem;
     background-color: #7fcfd7;
     display: -ms-grid;
@@ -33,6 +33,7 @@
 .title {
     font-size: 1.6rem;
     font-weight: 700;
+    margin-bottom: 0.9rem;
 }
 
 .text {
@@ -49,6 +50,72 @@
 .img {
     width: 100%;
     height: auto;
-    
+    border-radius: 1rem 1rem 0 0;
+    /* -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); */
 }
 
+.img_container {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.content {
+    display: -ms-grid;  
+    display: grid;
+    place-items: center;
+    padding: 0 2rem;
+    margin-bottom: 1.8rem;
+}
+
+.mail {
+    padding: 0.5em 0 0.5em 1.5em;
+    line-height: 3;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    border-radius: 0.5rem;
+    margin-bottom: 1em;
+}
+
+::-webkit-input-placeholder {  
+    color: #111127;  
+   }  
+   :-ms-input-placeholder {  
+    color: #111127;  
+   }  
+   ::-ms-input-placeholder {  
+    color: #111127;  
+   }  
+   ::placeholder {  
+    color: #111127; 
+    }
+
+.subscribe {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #f55951;
+    padding: 0.9em 0;
+    display: inline-block;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin-bottom: 1.3em;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 0.9rem;
+    width: 90%;
+    text-align: center;
+}
