@@ -1,0 +1,21 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    background-color: #50b2f8;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+}
+
